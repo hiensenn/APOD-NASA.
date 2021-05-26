@@ -96,7 +96,7 @@ html{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 80px;
     text-align: center;
     background-color: rgba(7, 80, 80, 0.507);
     margin:  auto;
