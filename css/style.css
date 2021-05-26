@@ -178,4 +178,7 @@ html{
     .conteudo img{
         width: 80%;
     }
+    #text{
+        background-color: none;
+    }
 }
