@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    background-image: url(../image/bg.gif);
+    height: auto;
+}
+.container{
+    text-align: center;
+    width: 100%;
+    margin-top: 20PX;
+    
+}
+.texto-principal{
+    width: 100%;
+    height: 80px;
+    background-image: url(../image/bg.gif);
+    background-repeat: no-repeat;    
+}
+.texto-principal h1{
+    width: 100%;
+    color: whitesmoke;
+}
+.texto-principal p{
+    width: 100%;
+    margin-top: 6px;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 14px;
+}
+.data-botao{
+    margin-top: 50px;
+    width: 100%;
+}
+.data-botao p{
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.data-botao input{
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align:center;
+    font-size: 17px;
+    color: whitesmoke;
+    background-color: rgba(0, 128, 128, 0.541);
+    cursor: pointer;
+}
+.data-botao .botao{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align:center;
+    font-size: 17px;
+    color: whitesmoke;
+    background-color: rgba(0, 128, 128, 0.541);
+    cursor: pointer;
+}
+.conteudo{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo img{
+    max-width: 700px;
+    max-height: 660px;
+    margin:0 auto;
+    background-position: center ;
+    border-color: rgba(255, 248, 220, 0.507);
+    display: flex;
+    justify-content: space-around;
+}
+.content-text{
+    width: 500px;
+}
+#text{
+    background-color: rgba(39, 64, 110, 0.658);
+    color: whitesmoke;
+    width: 50%;
+    padding: 2%;
+    margin:2% auto;
+
+}
+.container-item{
+    margin-top: 308px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(7, 80, 80);
+}
+.item{
+    width: 100%;
+    display: flex;
+    padding: 0 48%;
+    margin-top: 10px;
+}
+
+.texto-final{
+    width: 100%;
+    color: aliceblue;
+    margin-top: 10px;
+}
